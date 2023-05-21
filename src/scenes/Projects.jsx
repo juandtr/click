@@ -25,8 +25,7 @@ const Project = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
+          
         </p>
       </div>
       <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
@@ -58,9 +57,8 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
+        Click: Transformando ideas en experiencias digitales. Somos expertos en desarrollo web y móvil, creando soluciones innovadoras que impulsan tu negocio hacia el éxito en línea. Con tecnología de vanguardia y un enfoque centrado en el usuario, 
+        hacemos clic con tus necesidades y objetivos, brindando resultados excepcionales con cada proyecto.
         </p>
       </motion.div>
 
